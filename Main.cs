@@ -7,7 +7,8 @@ public partial class Main : Node2D
 	public override void _Ready()
 	{
 	}
-	
+
+ 	// To quit when user preses on quit button
 	private void _on_quit_pressed()
 	{
 		GetTree().Quit();
